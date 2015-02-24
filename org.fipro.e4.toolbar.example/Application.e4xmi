@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_3SDEcCl5EeKxt_mJ4IGVGg" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_3SDEcSl5EeKxt_mJ4IGVGg" label="Toolbar Example" width="500" height="400">
+    <children xsi:type="basic:PartStack" xmi:id="_L1CAUCl6EeKxt_mJ4IGVGg" elementId="toolbar.partstack.0">
+      <children xsi:type="basic:Part" xmi:id="_MxNUsCl6EeKxt_mJ4IGVGg" elementId="toolbar.part.0" contributionURI="bundleclass://org.fipro.e4.toolbar.example/org.fipro.e4.toolbar.example.SimplePart" label="Part with Toolbar">
+        <toolbar xmi:id="_i7RGoCl7EeKxt_mJ4IGVGg" elementId="toolbar.toolbar.0">
+          <children xsi:type="menu:DirectToolItem" xmi:id="_k6o9YCl7EeKxt_mJ4IGVGg" elementId="toolbar.directtoolitem.0" iconURI="platform:/plugin/org.fipro.e4.toolbar.example/icons/sample.gif" contributionURI="bundleclass://org.fipro.e4.toolbar.example/org.fipro.e4.toolbar.example.ToggleToolbarItem"/>
+          <children xsi:type="menu:DirectToolItem" xmi:id="_mMaHQCl7EeKxt_mJ4IGVGg" elementId="toolbar.directtoolitem.1" visible="false" iconURI="platform:/plugin/org.fipro.e4.toolbar.example/icons/save_edit.gif" tooltip="Save"/>
+          <children xsi:type="menu:DirectToolItem" xmi:id="_oZQHILrZEeSysrz9wafkeg" elementId="org.fipro.e4.toolbar.example.directtoolitem.0" iconURI="platform:/plugin/org.fipro.e4.toolbar.example/icons/ldebug_obj.gif">
+            <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_o2JegLrZEeSysrz9wafkeg" coreExpressionId="debugenabled"/>
+          </children>
+          <children xsi:type="menu:HandledToolItem" xmi:id="_qUJHQLttEeSsHsLDr7y2bQ" elementId="org.fipro.e4.toolbar.example.handledtoolitem.handled" label="Handled" command="_D1vHoLttEeSsHsLDr7y2bQ">
+            <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_rX31ILttEeSsHsLDr7y2bQ" coreExpressionId="debugenabled"/>
+          </children>
+        </toolbar>
+      </children>
+    </children>
+    <mainMenu xmi:id="_ySNz8GuREeKxXpx52fanoQ" elementId="toolbar.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_3K92IGuSEeKxXpx52fanoQ" elementId="toolbar.menu.1" label="Item Test Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_p-9jgGvBEeKU1bcShA0UAg" elementId="toolbar.handledmenuitem.0" label="Toggle Menu Item" command="_lOe3EGvBEeKU1bcShA0UAg"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_0LMHwGuREeKxXpx52fanoQ" elementId="toolbar.directmenuitem.1" label="Debug">
+          <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_37tzEGuREeKxXpx52fanoQ" coreExpressionId="debugenabled"/>
+        </children>
+      </children>
+      <children xsi:type="menu:DirectMenuItem" xmi:id="_t2P-gLrdEeSysrz9wafkeg" elementId="org.fipro.e4.toolbar.example.directmenuitem.save" visible="false" label="Save"/>
+      <children xsi:type="menu:DirectMenuItem" xmi:id="_QlooELkEEeS73YKyVp-NTw" elementId="org.fipro.e4.toolbar.example.directmenuitem.coreExpressionVisible" label="Debug">
+        <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_SI5KkLkEEeS73YKyVp-NTw" coreExpressionId="debugenabled"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="__3nsQLtsEeSsHsLDr7y2bQ" elementId="org.fipro.e4.toolbar.example.handledmenuitem.handled" label="Handled" command="_D1vHoLttEeSsHsLDr7y2bQ">
+        <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_BG7YALttEeSsHsLDr7y2bQ" coreExpressionId="debugenabled"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_8sCHALrdEeSysrz9wafkeg" elementId="org.fipro.e4.toolbar.example.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_-jzg8LrdEeSysrz9wafkeg" elementId="org.fipro.e4.toolbar.example.toolbar.0">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_nIqdcLrjEeSysrz9wafkeg" elementId="org.fipro.e4.toolbar.example.directtoolitem.2" iconURI="platform:/plugin/org.fipro.e4.toolbar.example/icons/sample.gif" contributionURI="bundleclass://org.fipro.e4.toolbar.example/org.fipro.e4.toolbar.example.ToggleToolbarItem"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_AuTpoLreEeSysrz9wafkeg" elementId="org.fipro.e4.toolbar.example.directtoolitem.save" visible="false" label="" iconURI="platform:/plugin/org.fipro.e4.toolbar.example/icons/save_edit.gif" tooltip="Save"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_48Q-wLrfEeSysrz9wafkeg" elementId="org.fipro.e4.toolbar.example.directtoolitem.1" iconURI="platform:/plugin/org.fipro.e4.toolbar.example/icons/ldebug_obj.gif">
+          <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_6mRCcLrfEeSysrz9wafkeg" coreExpressionId="debugenabled"/>
+        </children>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_kZ4KUGvBEeKU1bcShA0UAg" elementId="toolbar.handler.0" contributionURI="bundleclass://org.fipro.e4.toolbar.example/org.fipro.e4.toolbar.example.ToggleMenuItem" command="_lOe3EGvBEeKU1bcShA0UAg"/>
+  <handlers xmi:id="_GUheQLttEeSsHsLDr7y2bQ" elementId="org.fipro.e4.toolbar.example.handler.0" contributionURI="bundleclass://org.fipro.e4.toolbar.example/org.fipro.e4.toolbar.example.OpenDialogHandler" command="_D1vHoLttEeSsHsLDr7y2bQ"/>
+  <commands xmi:id="_lOe3EGvBEeKU1bcShA0UAg" elementId="toolbar.command.0" commandName="Toggle Menu Item Command"/>
+  <commands xmi:id="_D1vHoLttEeSsHsLDr7y2bQ" elementId="org.fipro.e4.toolbar.example.command.dialogCommand" commandName="Open Dialog Command"/>
+  <addons xmi:id="_3SDEcil5EeKxt_mJ4IGVGg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_3SDEcyl5EeKxt_mJ4IGVGg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_3SDEdCl5EeKxt_mJ4IGVGg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_3SDEdSl5EeKxt_mJ4IGVGg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_3SDEdil5EeKxt_mJ4IGVGg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_3SDEdyl5EeKxt_mJ4IGVGg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_8oT-ALkDEeS73YKyVp-NTw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

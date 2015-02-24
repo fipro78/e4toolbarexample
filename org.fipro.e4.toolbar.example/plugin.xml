@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="Toolbar Example"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="Toolbar Example">
+         </property>
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://org.fipro.e4.toolbar.example/org.fipro.e4.toolbar.example.LifecycleHook">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.core.expressions.definitions">
+      <definition
+            id="debugenabled">
+         <with
+               variable="debugEnabled">
+            <equals
+                  value="true">
+            </equals>
+         </with>
+      </definition>
+   </extension>
+
+</plugin>
