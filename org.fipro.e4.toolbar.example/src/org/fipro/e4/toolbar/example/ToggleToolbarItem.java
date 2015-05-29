@@ -33,7 +33,6 @@ public class ToggleToolbarItem {
 	 * Issues to solve with core expressions
 	 * https://bugs.eclipse.org/bugs/show_bug.cgi?id=457214
 	 * https://bugs.eclipse.org/bugs/show_bug.cgi?id=432856
-	 * https://bugs.eclipse.org/bugs/show_bug.cgi?id=431990
 	 * https://bugs.eclipse.org/bugs/show_bug.cgi?id=400217
 	 * 
 	 * https://bugs.eclipse.org/bugs/show_bug.cgi?id=391430

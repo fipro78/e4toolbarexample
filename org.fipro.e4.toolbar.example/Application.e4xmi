@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_3SDEcCl5EeKxt_mJ4IGVGg" elementId="org.eclipse.e4.ide.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_3SDEcSl5EeKxt_mJ4IGVGg" label="Toolbar Example" width="500" height="400">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_3SDEcSl5EeKxt_mJ4IGVGg" label="Toolbar Example" iconURI="platform:/plugin/org.fipro.e4.toolbar.example/icons/sample.gif" width="500" height="400">
     <children xsi:type="basic:PartStack" xmi:id="_L1CAUCl6EeKxt_mJ4IGVGg" elementId="toolbar.partstack.0">
       <children xsi:type="basic:Part" xmi:id="_MxNUsCl6EeKxt_mJ4IGVGg" elementId="toolbar.part.0" contributionURI="bundleclass://org.fipro.e4.toolbar.example/org.fipro.e4.toolbar.example.SimplePart" label="Part with Toolbar">
         <toolbar xmi:id="_i7RGoCl7EeKxt_mJ4IGVGg" elementId="toolbar.toolbar.0">
